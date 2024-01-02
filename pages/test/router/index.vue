@@ -11,7 +11,7 @@
 const { $router } = useNuxtApp();
 
 function onClickRouterTest() {
-  $router.push('/test/router')
+  $router.push('/test/router/historyback')
 }
 </script>
 <style scoped lang="scss">
