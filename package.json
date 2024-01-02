@@ -1,5 +1,6 @@
 {
   "name": "nuxt-app",
+  "description": "cafe app",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,7 +12,12 @@
   },
   "devDependencies": {
     "nuxt": "^3.9.0",
+    "sass": "^1.69.6",
     "vue": "^3.4.3",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "emitter": "^0.0.5",
+    "mitt": "^3.0.1"
   }
 }
